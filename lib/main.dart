@@ -40,44 +40,34 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   var myItems = [
     {
-      "img":
-          "https://th.bing.com/th/id/OIP.T3yOk_sWauWSOZLUft5EkgHaE8?pid=ImgDet&rs=1",
+      "img": "https://via.placeholder.com/150",
     },
     {
-      "img":
-          "https://th.bing.com/th/id/OIP.T3yOk_sWauWSOZLUft5EkgHaE8?pid=ImgDet&rs=1",
+      "img": "https://via.placeholder.com/150",
     },
     {
-      "img":
-          "https://th.bing.com/th/id/OIP.T3yOk_sWauWSOZLUft5EkgHaE8?pid=ImgDet&rs=1",
+      "img": "https://via.placeholder.com/150",
     },
     {
-      "img":
-          "https://th.bing.com/th/id/OIP.T3yOk_sWauWSOZLUft5EkgHaE8?pid=ImgDet&rs=1",
+      "img": "https://via.placeholder.com/150",
     },
     {
-      "img":
-          "https://th.bing.com/th/id/OIP.T3yOk_sWauWSOZLUft5EkgHaE8?pid=ImgDet&rs=1",
+      "img": "https://via.placeholder.com/150",
     },
     {
-      "img":
-          "https://th.bing.com/th/id/OIP.T3yOk_sWauWSOZLUft5EkgHaE8?pid=ImgDet&rs=1",
+      "img": "https://via.placeholder.com/150",
     },
     {
-      "img":
-          "https://th.bing.com/th/id/OIP.T3yOk_sWauWSOZLUft5EkgHaE8?pid=ImgDet&rs=1",
+      "img": "https://via.placeholder.com/150",
     },
     {
-      "img":
-          "https://th.bing.com/th/id/OIP.T3yOk_sWauWSOZLUft5EkgHaE8?pid=ImgDet&rs=1",
+      "img": "https://via.placeholder.com/150",
     },
     {
-      "img":
-          "https://th.bing.com/th/id/OIP.T3yOk_sWauWSOZLUft5EkgHaE8?pid=ImgDet&rs=1",
+      "img": "https://via.placeholder.com/150",
     },
     {
-      "img":
-          "https://th.bing.com/th/id/OIP.T3yOk_sWauWSOZLUft5EkgHaE8?pid=ImgDet&rs=1",
+      "img": "https://via.placeholder.com/150",
     },
   ];
 
@@ -146,7 +136,6 @@ class _HomePageState extends State<HomePage> {
                               height: isLandscape ? 100 : 150,
                               child: Image.network(
                                 myItems[index]['img']!,
-                                fit: BoxFit.fill,
                               ),
                             ),
                           );
